@@ -1,11 +1,12 @@
-// * {
+/* * {
     border: 2px solid red;
-  } //
+  } */
   
 body {
     
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -25,19 +26,37 @@ body {
     color: #f9faf8;
 }
 
+.top-header {
+    padding: 5px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 img {
     width: 300px;
 }
+
 
 .header-link {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    
 }
 
 h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
+

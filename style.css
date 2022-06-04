@@ -1,0 +1,43 @@
+// * {
+    border: 2px solid red;
+  } //
+  
+body {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #1f2937;
+    
+}
+
+.top-header,
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+
+img {
+    width: 300px;
+}
+
+.header-link {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}

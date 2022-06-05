@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: "Proxima Nova", sans-serif ;
 }
 
 .header {
@@ -41,10 +42,14 @@ body {
     padding-bottom: 100px;
 }
 
+
 .header-text
 p           {
     color: #e5e7e5;
     font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
 }
 
 img {

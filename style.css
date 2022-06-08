@@ -152,3 +152,42 @@ img {
     font-weight: lighter;
     font-style: italic;
 }
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.big-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+    font-size: 30px;
+}
+
+.su-paragraph {
+    color: #e5e7eb;
+    font-size: 15px;
+    margin: 0;
+}
+
+.big-box button {
+    border: 2px solid;
+    border-color: #e5e7e5;
+    
+}
